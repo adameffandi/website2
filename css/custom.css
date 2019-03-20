@@ -1,0 +1,31 @@
+.content-center {
+  left: 50%;
+  top: 50%;
+}
+
+.content-left {
+  left: 30%;
+  top: 50%;
+}
+.content-section {
+  position: absolute;
+  bottom: auto;
+  right: auto;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -o-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+  width: 90%;
+  max-width: 768px;
+  text-align: center;
+}
+
+.user-img {
+  width: 100%;
+  margin: 0px 0px 25px 0px;
+}
+
+.ed-ex-section {
+  padding: 40px 100px 40px 100px;
+}
